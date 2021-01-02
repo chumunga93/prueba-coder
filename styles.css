@@ -1,0 +1,285 @@
+* {margin: 0;
+padding: 0;}
+
+body {
+    background-color: rgb(255, 194, 113);
+}
+
+.logo img{
+    width: 400px;
+    height: auto;
+}
+
+header {
+background-color: #720101;
+padding: 0.3em;
+font-family: 'Jost', sans-serif;
+font-size: 20px;
+position: fixed;
+width: 100%;
+display: flex;
+justify-content: space-between;
+z-index: 2;
+}
+
+header a {
+padding: .5em;
+color: rgb(226, 102, 0);
+margin-inline: 1em;
+text-decoration: none;
+}
+
+header a:hover {
+    color: #ffbc2c;
+}
+
+.navegador { 
+    margin-top: 3%;
+}
+.navegador li {
+    list-style: none;
+}
+.navegador > li {
+    display: inline;
+}
+.navegador > li:last-of-type {
+    margin-right: 5em;
+}
+.listadesp2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(167, 75, 0);
+    border-radius: 7px;
+    padding-top: 60px;
+    position: absolute;
+    top: -25px;
+    left: -50px;
+    
+}
+.listadesp2 li {
+    list-style: none;
+    border-bottom: 1px solid rgb(248, 143, 6);
+    padding: 5px 10px 15px 0px;
+    margin: 1.2em .5em .5em .5em;
+    
+}
+
+.listadesp2 li:last-of-type {
+    border-bottom: none;
+}
+.listadesp {
+    position: relative;
+}
+.listadesp span {
+    z-index: 2;
+    position: relative;
+}
+
+.listadesp2 {
+    display: none;
+}
+
+.listadesp:hover .listadesp2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(75, 13, 18);
+}
+
+h2 {
+    text-align: center;
+    margin: .5em;
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    color: rgb(90, 50, 0)
+}
+#coleccion {
+    margin-top: 0%;
+    padding-top: 10%;
+}
+.yt{
+    padding: 1em;
+}
+.piedefoto { 
+    font-size: 18pt;
+    font-family: 'Jost', sans-serif;
+    color: rgb(90, 50, 0);
+    margin-top: 0%;
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+.galeria1 { 
+        font-size: 12pt;
+        font-family: 'Jost', sans-serif;
+        color: rgb(90, 50, 0);
+        margin-top: 0%;
+        padding-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        }
+.piedefoto p {
+    padding: .5em;
+    text-align: center;
+}
+
+.inlinefoto {
+    margin: 1em;
+    font-size: 12pt;
+    font-family: 'Jost', sans-serif;
+    color: rgb(90, 50, 0);
+}
+
+.inlinefoto img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.smol {
+    font-size: 12pt;
+    font-family: 'Jost', sans-serif;
+    color: rgb(0, 63, 19);
+    margin-left: 2em;
+    }
+.redsocial p {
+    text-align: left;
+    margin-left: 2em;
+}
+.redsocial {
+    display: flex;
+    flex-wrap: wrap;
+}
+form input {
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 63, 19);
+}
+#servicios {
+    background-color: rgb(255, 164, 60);
+}
+
+.serv {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.serv p {
+    text-align: center;
+}
+
+
+h3 {color: rgb(90, 50, 0);
+    font-size: 20;
+    margin-left: 2em;
+    font-family: 'Jost', sans-serif;  
+}
+
+.infocontacto {
+    color: rgb(90, 50, 0);
+    font-size: 20;
+    margin-left: 2em;
+    font-family: 'Jost', sans-serif;
+    padding: 1em;
+}
+
+.redsocial {
+    padding: 1em;
+}
+.estallido {
+    background-color: rgb(165, 123, 119);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.astrofoto {
+    background-color: rgb(159, 127, 179);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.paisajitos {
+    background-color: rgb(139, 184, 150);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ofertaimpresion {
+    font-size: 17pt;
+    font-family: 'Jost', sans-serif;
+    color: rgb(90, 50, 0);
+    width: 100%;
+    padding-top: 11%;
+}
+.ofertaimpresion h2 {
+    padding-top: 1em;
+}
+
+.fineart p {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2em;
+   }
+
+.trovicel p {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2em;
+}
+
+.fineart {
+    background-color: rgb(226, 157, 111);
+}
+.trovicel {
+    background-color: rgb(187, 143, 92);
+
+}
+.fotoperfil {
+    margin: 2em;
+    height: 600;
+    width: 300;
+    float: left;
+}
+.fotoperfil img {
+    padding: 1em;
+    border: dashed; color: rgb(200, 53, 0);
+}
+
+.sobremi {
+    padding-top: 11%;
+}
+.sobremi p {
+    margin-top: 7em;
+}
+
+.yutub {
+display: flex;
+justify-content: center;}
+
+.contacto {
+    background-color: rgb(235, 144, 92);
+}
+
+.contacto h2 {
+    padding: 1em;
+}
+#servicios h2 {
+    padding: 1em;
+}
+.card {
+    padding: 4em;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+#card1 img{
+    max-width: 80%;
+    margin-left: 3em;
+}
